@@ -3,6 +3,14 @@ Simple Password Spray Tool For SMB Shares. No False Positivies!
 
 This is a simple few lines of code in bash that will try to find the valid username password combination from the given username & password list.
 
+## Installation
+
+This tool is only for Linux.
+
+`git clone https://github.com/StillNoob/SMBBrute.git`
+
+or you can simply copy paste the SMBBrute.sh file. 
+
 ## Usage
 
 `./SMBBrute.sh <IP Address> <Share_Name> <User_list> <Pass_list>`
