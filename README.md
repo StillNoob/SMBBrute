@@ -14,6 +14,8 @@ or you can simply copy paste the SMBBrute.sh file.
 ## Usage
 
 `./SMBBrute.sh <IP Address> <Share_Name> <User_list> <Pass_list>`
+Example:
+`./SMBBrute.sh 10.10.10.10 nerherd_classified users.txt pass.txt`
 
 If there is any valid combination, it'll be displayed on the screen. Also, the script will create a new file named valids.txt. All valid combinations will be saved there, you can open it at any time to check if there is any found. 
 
